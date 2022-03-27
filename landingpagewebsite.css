@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+}
+h2
+{
+    margin: 0;
+    padding: 2em;
+}
+p{
+    margin: 0;
+    padding: 1em;
+}
+
+.bg
+{
+background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+background-position: center;
+background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+width: 100%;
+position: absolute;
+z-index: -1;
+/* this is heightlight propertied */
+opacity: 0.7;
+}
+#headerID
+{
+    text-align: center;
+    min-height: 450px;
+    color: #fff;
+}
+#headerID h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+#headerID p{
+    color: violet;
+}#headerID a{
+    color: white;
+}
+.btn
+{
+    background: rgb(28, 64, 223);
+    border:1px solid #666;
+    padding: 1em;
+   
+}
+.btn:hover
+{
+    background: white;
+    color:#333;
+    cursor: pointer;
+}
+#headerID a{
+    color: rgb(70, 71, 68);
+    min-height: 300px;
+}
+#section-a{
+    background:#eaeaea;
+    color: #333;
+  padding bottom: 2em;  
+    /* display:block; */
+    :default
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section-b
+{
+    display: block;
+    padding: 2em;
+}
+#section-b ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#section-b li{
+    background: white;
+    color: #333;
+    width:31%;
+    margin-bottom: 1em;
+}
+#section-c {
+    background :white;
+    color: #333;
+    padding:0 2em 0 2em;
+}
+/* //section -d */
+#section-d
+{
+ display: flex;
+}
+#section-d .box1
+{
+  background-color:blue;
+}
+.box1{
+    padding:1em
+}.box2{
+    padding:1em
+}
+
+#footer
+{
+    display: flex;
+    background-color: black;
+   padding: 2em;
+ 
+}
+#footer div:last-child
+{
+    margin-left: auto;
+}
+
+
+ @media only screen and (max-width: 600px)
+{
+    #section-b ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    }
+    #section-b li{
+        background: white;
+        color: #333;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    #section-d
+{
+ display: block;
+}
+#section-d .box1 .box2
+{
+  background-color:gray;
+}
+.box1{
+    padding:1em
+}.box2{
+    padding:1em
+}
+
+#footer div:last-child {
+
+padding: 10px;
+}
+#footer {
+    display: block;
+    background-color: black;
+    padding: 2em;
+}
+#section-d .box1 {
+    background-color: #530975;
+}
+}
